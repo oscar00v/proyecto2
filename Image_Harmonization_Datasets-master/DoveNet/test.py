@@ -19,7 +19,7 @@ if __name__ == '__main__':
     Arraymse = []
     Arraypsnr = []
     resultsmse = open("Resultadosmse.txt","w+")
-	resultspsnr = open("Resultadospsnr.txt","w+")
+    resultspsnr = open("Resultadospsnr.txt","w+")
     opt = TestOptions().parse()  # get test options
     # hard-code some parameters for test
     opt.num_threads = 0   # test code only supports num_threads = 1
@@ -68,4 +68,5 @@ if __name__ == '__main__':
     resultsmse.write(str(Arraymse))
     resultspsnr.write(str(Arraypsnr))
     resultsmse.close()
-	resultspsnr.close()
+    resultspsnr.close()
+
